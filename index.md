@@ -16,7 +16,7 @@ title: Cécile Dezy | Junior Fullstack Developer
   <div class="profile">
   </div>
   <div class="content text-center">
-    <img src="{{ site.baseurl }}/assets/images/profile.svg" alt="profile pic" id="profile-pic">
+    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/profile.svg" alt="profile pic" id="profile-pic">
     <p><strong>I am a Fullstack Web Developer living in Paris.</strong></p>
     <p>After studying import/export and realise I needed a job with more purpose, so I did a Master in International Cooperation to work in NGOs. I joined Handicap International for an internship in communication and then Oxfam France, for 5 years in digital communication and customer success for their events.</p>
     <p>It was then that I decided to dig the digital side and learn to code with le Wagon Paris (batch#200).</p>
