@@ -1,0 +1,29 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+  <link rel="shortcut icon" href="{{site.url.}}{{site.baseurl}}/favicon.png" type="image/png?">
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800,600' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Megrim" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dekko" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('.smoothScroll').on('click', function() { // Au clic sur un élément
+        var page = $(this).attr('href'); // Page cible
+        var speed = 750; // Durée de l'animation (en ms)
+        $('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+        return false;
+      });
+    });
+  </script>
+</head>
+
