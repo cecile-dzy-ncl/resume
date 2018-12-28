@@ -65,33 +65,58 @@ title: Cécile Dezy | Junior Fullstack Developer
         <h2>Front-end</h2>
         <div class="rows">
           <div class="row1">
-            <p>HTML5</p>
-            <p>CSS3 / SASS</p>
+            <div class="skill">
+              <i class="fab fa-html5"></i>
+              <p>HTML5</p>
+            </div>
+            <div class="skill">
+              <i class="fab fa-css3-alt"></i>
+              <p>CSS3 / SASS</p>
+            </div>
           </div>
           <div class="row2">
-            <p>Javascript / ES6</p>
-            <p>Bootstrap</p>
+            <div class="skill">
+              <i class="fab fa-js-square"></i>
+              <p>Javascript / ES6</p>
+            </div>
+            <div class="skill">
+              <p>Bootstrap</p>
+            </div>
           </div>
         </div>
       </div>
       <div class="back-end">
         <h2>Back-end</h2>
         <div class="row-be">
-          <p>Ruby</p>
-          <p>Rails</p>
-          <p>Jekyll</p>
+          <div class="skill">
+            <p>Ruby</p>
+          </div>
+          <div class="skill">
+            <p>Rails</p>
+          </div>
+          <div class="skill">
+            <p>Jekyll</p>
+          </div>
         </div>
       </div>
       <div class="devops">
         <h2>Devops</h2>
         <div class="rows">
           <div class="row1">
-            <p>Heroku</p>
-            <p>Github</p>
+            <div class="skill">
+              <p>Heroku</p>
+            </div>
+            <div class="skill">
+              <p>Github</p>
+            </div>
           </div>
           <div class="row2">
-            <p>Git</p>
-            <p>PostGreSQL</p>
+            <div class="skill">
+              <p>Git</p>
+            </div>
+            <div class="skill">
+              <p>PostGreSQL</p>
+            </div>
           </div>
         </div>
       </div>
