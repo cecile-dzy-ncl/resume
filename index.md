@@ -3,6 +3,7 @@ layout: default
 title: Cécile Dezy | Junior Fullstack Developer
 ---
 
+<!-- ---- ABOUT SECTION ---- -->
 <div class="section" id="about">
   <div class="title text-center">
     <div class="title-about">
@@ -30,6 +31,7 @@ title: Cécile Dezy | Junior Fullstack Developer
   </div>
 </div>
 
+<!-- ---- WORK SECTION ---- -->
 <div class="section" id="work">
   <div class="title text-center">
     <h1>WORK</h1>
@@ -45,6 +47,7 @@ title: Cécile Dezy | Junior Fullstack Developer
   </div>
 </div>
 
+<!-- ---- SKILLS SECTION ---- -->
 <div class="section" id="skills">
   <div class="title text-center">
     <h1>SKILLS</h1>
@@ -55,15 +58,48 @@ title: Cécile Dezy | Junior Fullstack Developer
       <h4><a href="#contact" class="smoothScroll">Contact</a></h4>
     </div>
   </div>
+
   <div class="content text-center">
     <div class="menu-skills">
-      <h2>Front-end</h2>
-      <h2>Back-end</h2>
-      <h2>Devops</h2>
+      <div class="front-end">
+        <h2>Front-end</h2>
+        <div class="rows">
+          <div class="row1">
+            <p>HTML5</p>
+            <p>CSS3 / SASS</p>
+          </div>
+          <div class="row2">
+            <p>Javascript / ES6</p>
+            <p>Bootstrap</p>
+          </div>
+        </div>
+      </div>
+      <div class="back-end">
+        <h2>Back-end</h2>
+        <div class="row-be">
+          <p>Ruby</p>
+          <p>Rails</p>
+          <p>Jekyll</p>
+        </div>
+      </div>
+      <div class="devops">
+        <h2>Devops</h2>
+        <div class="rows">
+          <div class="row1">
+            <p>Heroku</p>
+            <p>Github</p>
+          </div>
+          <div class="row2">
+            <p>Git</p>
+            <p>PostGreSQL</p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
 
+<!-- ---- CONTACT SECTION ---- -->
 <div class="section" id="contact">
   <div class="title text-center">
     <h1>CONTACT</h1>

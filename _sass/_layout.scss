@@ -279,6 +279,29 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: red;
+}
 
+.rows {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+}
 
+.row-be {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.front-end, .back-end, .devops {
+    width: 75%;
+}
+
+.text-about {
+  margin-top: -100px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
