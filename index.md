@@ -76,7 +76,7 @@ title: Cécile Dezy | Junior Fullstack Developer
           </div>
           <div class="row2">
             <div class="skill">
-              <img src="{{ site.baseurl }}/assets/images/Javascript_logo.png" alt="JS">
+              <img src="{{ site.baseurl }}/assets/images/JavaScript_logo.png" alt="JS">
               <p>Javascript / ES6</p>
             </div>
             <div class="skill">
@@ -90,11 +90,11 @@ title: Cécile Dezy | Junior Fullstack Developer
         <h2>Back-end</h2>
         <div class="row-be">
           <div class="skill">
-            <img src="{{ site.baseurl }}/assets/images/profile.png" alt="profile pic" id="profile-pic">
+            <img src="{{ site.baseurl }}/assets/images/Ruby_logo.png" alt="Ruby" id="profile-pic">
             <p>Ruby</p>
           </div>
           <div class="skill">
-            <img src="{{ site.baseurl }}/assets/images/profile.png" alt="profile pic" id="profile-pic">
+            <img src="{{ site.baseurl }}/assets/images/Ruby_On_Rails_logo.png" alt="Rails">
             <p>Rails</p>
           </div>
           <div class="skill">
