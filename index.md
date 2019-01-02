@@ -66,20 +66,21 @@ title: Cécile Dezy | Junior Fullstack Developer
         <div class="rows">
           <div class="row1">
             <div class="skill">
-              <i class="fab fa-html5"></i>
+              <img src="{{ site.baseurl }}/assets/images/HTML5_logo.png" alt="HTML5">
               <p>HTML5</p>
             </div>
             <div class="skill">
-              <i class="fab fa-css3-alt"></i>
+              <img src="{{ site.baseurl }}/assets/images/CSS3_logo.png" alt="CSS3">
               <p>CSS3 / SASS</p>
             </div>
           </div>
           <div class="row2">
             <div class="skill">
-              <i class="fab fa-js-square"></i>
+              <img src="{{ site.baseurl }}/assets/images/Javascript_logo.png" alt="JS">
               <p>Javascript / ES6</p>
             </div>
             <div class="skill">
+              <img src="{{ site.baseurl }}/assets/images/TwitterBootstrap_logo.png" alt="Bootstrap">
               <p>Bootstrap</p>
             </div>
           </div>
@@ -89,12 +90,15 @@ title: Cécile Dezy | Junior Fullstack Developer
         <h2>Back-end</h2>
         <div class="row-be">
           <div class="skill">
+            <img src="{{ site.baseurl }}/assets/images/profile.png" alt="profile pic" id="profile-pic">
             <p>Ruby</p>
           </div>
           <div class="skill">
+            <img src="{{ site.baseurl }}/assets/images/profile.png" alt="profile pic" id="profile-pic">
             <p>Rails</p>
           </div>
           <div class="skill">
+            <img src="{{ site.baseurl }}/assets/images/profile.png" alt="profile pic" id="profile-pic">
             <p>Jekyll</p>
           </div>
         </div>
@@ -104,17 +108,21 @@ title: Cécile Dezy | Junior Fullstack Developer
         <div class="rows">
           <div class="row1">
             <div class="skill">
+              <img src="{{ site.baseurl }}/assets/images/profile.png" alt="profile pic" id="profile-pic">
               <p>Heroku</p>
             </div>
             <div class="skill">
+              <img src="{{ site.baseurl }}/assets/images/profile.png" alt="profile pic" id="profile-pic">
               <p>Github</p>
             </div>
           </div>
           <div class="row2">
             <div class="skill">
+              <img src="{{ site.baseurl }}/assets/images/profile.png" alt="profile pic" id="profile-pic">
               <p>Git</p>
             </div>
             <div class="skill">
+              <img src="{{ site.baseurl }}/assets/images/profile.png" alt="profile pic" id="profile-pic">
               <p>PostGreSQL</p>
             </div>
           </div>
