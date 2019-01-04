@@ -98,7 +98,7 @@ title: Cécile Dezy | Junior Fullstack Developer
             <p>Rails</p>
           </div>
           <div class="skill">
-            <img src="{{ site.baseurl }}/assets/images/jekyll.png" alt="Jekyll>
+            <img src="{{ site.baseurl }}/assets/images/jekyll.png" alt="Jekyll">
             <p>Jekyll</p>
           </div>
         </div>
