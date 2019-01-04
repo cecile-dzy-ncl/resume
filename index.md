@@ -66,21 +66,21 @@ title: Cécile Dezy | Junior Fullstack Developer
         <div class="rows">
           <div class="row1">
             <div class="skill">
-              <img src="{{ site.baseurl }}/assets/images/HTML5_logo.png" alt="HTML5">
+              <img src="{{ site.baseurl }}/assets/images/html5.png" alt="HTML5">
               <p>HTML5</p>
             </div>
             <div class="skill">
-              <img src="{{ site.baseurl }}/assets/images/CSS3_logo.png" alt="CSS3">
+              <img src="{{ site.baseurl }}/assets/images/css3.png" alt="CSS3">
               <p>CSS3 / SASS</p>
             </div>
           </div>
           <div class="row2">
             <div class="skill">
-              <img src="{{ site.baseurl }}/assets/images/JavaScript_logo.png" alt="JS">
+              <img src="{{ site.baseurl }}/assets/images/js.png" alt="JS">
               <p>Javascript / ES6</p>
             </div>
             <div class="skill">
-              <img src="{{ site.baseurl }}/assets/images/TwitterBootstrap_logo.png" alt="Bootstrap">
+              <img src="{{ site.baseurl }}/assets/images/bootstrap.png" alt="Bootstrap">
               <p>Bootstrap</p>
             </div>
           </div>
@@ -90,15 +90,15 @@ title: Cécile Dezy | Junior Fullstack Developer
         <h2>Back-end</h2>
         <div class="row-be">
           <div class="skill">
-            <img src="{{ site.baseurl }}/assets/images/Ruby_logo.png" alt="Ruby" id="profile-pic">
+            <img src="{{ site.baseurl }}/assets/images/ruby.png" alt="Ruby" id="profile-pic">
             <p>Ruby</p>
           </div>
           <div class="skill">
-            <img src="{{ site.baseurl }}/assets/images/Ruby_On_Rails_logo.png" alt="Rails">
+            <img src="{{ site.baseurl }}/assets/images/ror.png" alt="Rails">
             <p>Rails</p>
           </div>
           <div class="skill">
-            <img src="{{ site.baseurl }}/assets/images/profile.png" alt="profile pic" id="profile-pic">
+            <img src="{{ site.baseurl }}/assets/images/jekyll.png" alt="Jekyll>
             <p>Jekyll</p>
           </div>
         </div>
@@ -108,21 +108,21 @@ title: Cécile Dezy | Junior Fullstack Developer
         <div class="rows">
           <div class="row1">
             <div class="skill">
-              <img src="{{ site.baseurl }}/assets/images/profile.png" alt="profile pic" id="profile-pic">
+              <img src="{{ site.baseurl }}/assets/images/heroku.png" alt="Heroku">
               <p>Heroku</p>
             </div>
             <div class="skill">
-              <img src="{{ site.baseurl }}/assets/images/profile.png" alt="profile pic" id="profile-pic">
+              <img src="{{ site.baseurl }}/assets/images/github.png" alt="Github">
               <p>Github</p>
             </div>
           </div>
           <div class="row2">
             <div class="skill">
-              <img src="{{ site.baseurl }}/assets/images/profile.png" alt="profile pic" id="profile-pic">
+              <img src="{{ site.baseurl }}/assets/images/git.png" alt="Git">
               <p>Git</p>
             </div>
             <div class="skill">
-              <img src="{{ site.baseurl }}/assets/images/profile.png" alt="profile pic" id="profile-pic">
+              <img src="{{ site.baseurl }}/assets/images/postgresql.png" alt="PostGreSQL">
               <p>PostGreSQL</p>
             </div>
           </div>
