@@ -279,25 +279,19 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: red;
+  // background-color: red;
 }
 
 .rows {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: blue;
-}
-
-.row-be {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: white;
+  // background-color: blue;
 }
 
 .front-end, .back-end, .devops {
-    width: 75%;
+  width: 100%;
+  text-align: center;
 }
 
 .text-about {
@@ -313,7 +307,11 @@ footer {
   align-items: center;
 
   img {
-    height: 75px;
-    width: 75px;
+    height: 50px;
+    filter: grayscale(100);
+  }
+
+  img:hover {
+    filter: grayscale(0);
   }
 }

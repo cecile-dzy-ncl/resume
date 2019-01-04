@@ -64,31 +64,27 @@ title: Cécile Dezy | Junior Fullstack Developer
       <div class="front-end">
         <h2>Front-end</h2>
         <div class="rows">
-          <div class="row1">
-            <div class="skill">
-              <img src="{{ site.baseurl }}/assets/images/html5.png" alt="HTML5">
-              <p>HTML5</p>
-            </div>
-            <div class="skill">
-              <img src="{{ site.baseurl }}/assets/images/css3.png" alt="CSS3">
-              <p>CSS3 / SASS</p>
-            </div>
+          <div class="skill">
+            <img src="{{ site.baseurl }}/assets/images/html5.png" alt="HTML5">
+            <p>HTML5</p>
           </div>
-          <div class="row2">
-            <div class="skill">
-              <img src="{{ site.baseurl }}/assets/images/js.png" alt="JS">
-              <p>Javascript / ES6</p>
-            </div>
-            <div class="skill">
-              <img src="{{ site.baseurl }}/assets/images/bootstrap.png" alt="Bootstrap">
-              <p>Bootstrap</p>
-            </div>
+          <div class="skill">
+            <img src="{{ site.baseurl }}/assets/images/css3.png" alt="CSS3">
+            <p>CSS3 / SASS</p>
+          </div>
+          <div class="skill">
+            <img src="{{ site.baseurl }}/assets/images/js.png" alt="JS">
+            <p>Javascript / ES6</p>
+          </div>
+          <div class="skill">
+            <img src="{{ site.baseurl }}/assets/images/bootstrap.png" alt="Bootstrap">
+            <p>Bootstrap</p>
           </div>
         </div>
       </div>
       <div class="back-end">
         <h2>Back-end</h2>
-        <div class="row-be">
+        <div class="rows">
           <div class="skill">
             <img src="{{ site.baseurl }}/assets/images/ruby.png" alt="Ruby">
             <p>Ruby</p>
@@ -106,25 +102,21 @@ title: Cécile Dezy | Junior Fullstack Developer
       <div class="devops">
         <h2>Devops</h2>
         <div class="rows">
-          <div class="row1">
-            <div class="skill">
-              <img src="{{ site.baseurl }}/assets/images/heroku.png" alt="Heroku">
-              <p>Heroku</p>
-            </div>
-            <div class="skill">
-              <img src="{{ site.baseurl }}/assets/images/github.svg" alt="Github">
-              <p>Github</p>
-            </div>
+          <div class="skill">
+            <img src="{{ site.baseurl }}/assets/images/heroku.png" alt="Heroku">
+            <p>Heroku</p>
           </div>
-          <div class="row2">
-            <div class="skill">
-              <img src="{{ site.baseurl }}/assets/images/git.png" alt="Git">
-              <p>Git</p>
-            </div>
-            <div class="skill">
-              <img src="{{ site.baseurl }}/assets/images/postgresql.png" alt="PostGreSQL">
-              <p>PostGreSQL</p>
-            </div>
+          <div class="skill">
+            <img src="{{ site.baseurl }}/assets/images/github.svg" alt="Github">
+            <p>Github</p>
+          </div>
+          <div class="skill">
+            <img src="{{ site.baseurl }}/assets/images/git.png" alt="Git">
+            <p>Git</p>
+          </div>
+          <div class="skill">
+            <img src="{{ site.baseurl }}/assets/images/postgresql.png" alt="PostGreSQL">
+            <p>PostGreSQL</p>
           </div>
         </div>
       </div>
