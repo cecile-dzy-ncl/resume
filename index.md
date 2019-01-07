@@ -86,7 +86,7 @@ title: Cécile Dezy | Junior Fullstack Developer
         <h2>Back-end</h2>
         <div class="rows">
           <div class="skill">
-            <img src="{{ site.baseurl }}/assets/images/ruby.png" alt="Ruby">
+            <img src="{{ site.baseurl }}/assets/images/ruby.png" alt="Ruby" id="r">
             <p>Ruby</p>
           </div>
           <div class="skill">
@@ -107,11 +107,11 @@ title: Cécile Dezy | Junior Fullstack Developer
             <p>Heroku</p>
           </div>
           <div class="skill">
-            <img src="{{ site.baseurl }}/assets/images/github.svg" alt="Github">
+            <img src="{{ site.baseurl }}/assets/images/github.svg" alt="Github" id="g">
             <p>Github</p>
           </div>
           <div class="skill">
-            <img src="{{ site.baseurl }}/assets/images/git.png" alt="Git">
+            <img src="{{ site.baseurl }}/assets/images/git.png" alt="Git" id="g">
             <p>Git</p>
           </div>
           <div class="skill">
