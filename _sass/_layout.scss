@@ -193,9 +193,9 @@ footer {
 #work {
   background: #DABFBB;
 
-  h1 {
-    color: #000;
-  }
+  // h1 {
+  //   color: #000;
+  // }
 }
 
 #skills {
@@ -331,4 +331,16 @@ footer {
 
 #work-content {
   // background-color: red;
+  overflow: scroll;
+}
+
+.mtm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 100%;
+  }
 }

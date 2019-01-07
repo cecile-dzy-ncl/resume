@@ -11,8 +11,11 @@ title: Cécile Dezy | Junior Fullstack Developer
     </div>
     <div class="menu-section">
       <h4><a href="#about" class="smoothScroll">About</a></h4>
+      <h4>.</h4>
       <h4><a href="#work" class="smoothScroll">Work</a></h4>
+      <h4>.</h4>
       <h4><a href="#skills" class="smoothScroll">Skills</a></h4>
+      <h4>.</h4>
       <h4><a href="#contact" class="smoothScroll">Contact</a></h4>
     </div>
   </div>
@@ -37,13 +40,32 @@ title: Cécile Dezy | Junior Fullstack Developer
     <h1>WORK</h1>
     <div class="menu-section">
       <h4><a href="#about" class="smoothScroll">About</a></h4>
+      <h4>.</h4>
       <h4><a href="#work" class="smoothScroll">Work</a></h4>
+      <h4>.</h4>
       <h4><a href="#skills" class="smoothScroll">Skills</a></h4>
+      <h4>.</h4>
       <h4><a href="#contact" class="smoothScroll">Contact</a></h4>
     </div>
   </div>
   <div class="content text-center" id="work-content" onclick="incWidth()">
-    <h1>Here is my work part for my portfolio !</h1>
+    <div class="mtm">
+      <h2>Mind the Map</h2>
+      <img src="{{ site.baseurl }}/assets/images/mu-mtm.png" alt="mind the map">
+      <p>Mind the Map is a geographic game, for every people who want to know better their city.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur autem quidem ipsa, eveniet unde distinctio! Fuga sunt iste, natus doloremque temporibus sed porro dolorem, est quidem amet consequuntur quae maiores.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt architecto, doloribus eaque et nostrum, quos a velit. Adipisci porro rerum aspernatur, doloribus temporibus at. Aperiam nemo, perferendis tempore est recusandae.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error minus assumenda modi, harum repellat! Alias pariatur inventore ut ex, tempore voluptatum. Deleniti, ipsum, error. Placeat eveniet ipsam, dolor fugiat possimus.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident sapiente rerum rem blanditiis molestiae velit pariatur ad consequatur, adipisci saepe iste quam consequuntur culpa! Unde facilis ducimus explicabo labore assumenda.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia rem consequatur necessitatibus sed sit nisi fuga quibusdam aliquid, exercitationem mollitia quis, ducimus atque dolores, molestias rerum voluptate odit sint maxime.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque exercitationem quia earum quibusdam non. Incidunt itaque facere saepe consequuntur, excepturi, rerum magnam sunt placeat qui illum quidem molestias consequatur dolorem.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi assumenda voluptatum, vitae rem distinctio! Aperiam voluptate, reiciendis voluptates, laudantium eum, sunt totam earum deleniti non, nostrum at est facilis. Accusamus.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae minima rerum fuga debitis, perferendis perspiciatis sit itaque omnis earum inventore. Omnis officia, facere perferendis voluptates tempora sint, praesentium quaerat ullam.
+      Placeat suscipit optio quo, non aperiam laboriosam sunt doloremque ratione officiis molestiae architecto explicabo ut, nulla iure deserunt. Consectetur veniam ducimus blanditiis natus, voluptatum consequuntur possimus dolore iusto beatae dolorem?
+      Ullam numquam vero, officiis. Minima sequi soluta, in ad laudantium! Tempora ea esse sint sed voluptatibus repellat pariatur voluptatem, illo aliquam adipisci soluta! Facere assumenda modi esse, eaque laudantium quasi.
+      Veritatis id, quae eum nemo quidem molestias eos, ea adipisci aspernatur molestiae fuga quas quibusdam nam natus aut delectus aliquid debitis voluptatem assumenda quia. Ducimus dicta minus ullam, adipisci quam.
+      Eaque obcaecati iste sapiente, dolorum sint id, quod velit ipsum at facilis esse maiores reiciendis, totam modi ipsam sunt corporis! Tenetur earum sapiente quisquam doloremque, sed adipisci id temporibus deserunt.</p>
+    </div>
   </div>
 </div>
 
@@ -53,8 +75,11 @@ title: Cécile Dezy | Junior Fullstack Developer
     <h1>SKILLS</h1>
     <div class="menu-section">
       <h4><a href="#about" class="smoothScroll">About</a></h4>
+      <h4>.</h4>
       <h4><a href="#work" class="smoothScroll">Work</a></h4>
+      <h4>.</h4>
       <h4><a href="#skills" class="smoothScroll">Skills</a></h4>
+      <h4>.</h4>
       <h4><a href="#contact" class="smoothScroll">Contact</a></h4>
     </div>
   </div>
@@ -130,8 +155,11 @@ title: Cécile Dezy | Junior Fullstack Developer
     <h1>CONTACT</h1>
     <div class="menu-section">
       <h4><a href="#about" class="smoothScroll">About</a></h4>
+      <h4>.</h4>
       <h4><a href="#work" class="smoothScroll">Work</a></h4>
+      <h4>.</h4>
       <h4><a href="#skills" class="smoothScroll">Skills</a></h4>
+      <h4>.</h4>
       <h4><a href="#contact" class="smoothScroll">Contact</a></h4>
     </div>
   </div>
