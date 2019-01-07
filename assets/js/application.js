@@ -1,3 +1,13 @@
+// const incWidth = () => {
+//   const work = document.getElementById("work-content");
+//   work.addEventListener("click", (event) => {
+//     work.style.width = 75 + vw;
+// });
+// }
+
+// export { incWidth };
+
+
 // import $ from 'jquery';
 
 // $(function() {

@@ -42,7 +42,7 @@ title: Cécile Dezy | Junior Fullstack Developer
       <h4><a href="#contact" class="smoothScroll">Contact</a></h4>
     </div>
   </div>
-  <div class="content text-center">
+  <div class="content text-center" id="work-content" onclick="incWidth()">
     <h1>Here is my work part for my portfolio !</h1>
   </div>
 </div>
@@ -155,3 +155,11 @@ title: Cécile Dezy | Junior Fullstack Developer
   </div>
 </div>
 
+<script type="text/javascript">
+  const incWidth = () => {
+    const work = document.getElementById("work-content");
+    work.addEventListener("click", (event) => {
+      work.style.width = 100 + '%';
+    });
+  }
+</script>
