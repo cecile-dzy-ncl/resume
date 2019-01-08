@@ -49,7 +49,36 @@ title: Cécile Dezy | Junior Fullstack Developer
     </div>
   </div>
   <div class="content text-center" id="work-content" onclick="incWidth()">
-    <div class="mtm">
+    <main class="cd-main">
+    <ul class="cd-gallery">
+      <li class="cd-item mtm">
+        <a href="item-1.html">
+          <div>
+            <h2>Mind the Map</h2>
+            <b>View More</b>
+          </div>
+        </a>
+      </li>
+      <li class="cd-item ram">
+        <a href="item-2.html">
+          <div>
+            <h2>Rent a mobile</h2>
+            <b>View More</b>
+          </div>
+        </a>
+      </li>
+    </ul>
+    </main>
+    <div class="cd-folding-panel">
+      <div class="fold-left">
+      </div> <!-- this is the left fold -->
+      <div class="fold-right">
+      </div> <!-- this is the right fold -->
+      <div class="cd-fold-content">
+         <!-- content will be loaded using javascript -->
+      </div>
+    </div>
+    <!-- <div class="mtm">
       <h2>Mind the Map</h2>
       <img src="{{ site.baseurl }}/assets/images/mu-mtm.png" alt="mind the map">
       <p>Mind the Map is a geographic game, for every people who want to know better their city.</p>
@@ -65,7 +94,7 @@ title: Cécile Dezy | Junior Fullstack Developer
       Ullam numquam vero, officiis. Minima sequi soluta, in ad laudantium! Tempora ea esse sint sed voluptatibus repellat pariatur voluptatem, illo aliquam adipisci soluta! Facere assumenda modi esse, eaque laudantium quasi.
       Veritatis id, quae eum nemo quidem molestias eos, ea adipisci aspernatur molestiae fuga quas quibusdam nam natus aut delectus aliquid debitis voluptatem assumenda quia. Ducimus dicta minus ullam, adipisci quam.
       Eaque obcaecati iste sapiente, dolorum sint id, quod velit ipsum at facilis esse maiores reiciendis, totam modi ipsam sunt corporis! Tenetur earum sapiente quisquam doloremque, sed adipisci id temporibus deserunt.</p>
-    </div>
+    </div> -->
   </div>
 </div>
 
