@@ -18,7 +18,7 @@ email: cecile.dezy@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Here is my fucking awesome description
 # when local
-baseurl: ""
+baseurl: "/resume"
 url: "https://cecile-dzy-ncl.github.io"
 # when prod
 # baseurl: "/resume" # the subpath of your site, e.g. /blog
