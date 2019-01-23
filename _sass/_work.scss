@@ -1,0 +1,95 @@
+.cd-projects-container {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.cd-projects-container .single-project {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  transition: transform 0.4s;
+}
+.cd-projects-container .single-project:nth-of-type(2) {
+  transform: translateY(50%);
+}
+// .cd-projects-container .single-project:nth-of-type(3) {
+//   transform: translateY(66.6666666667%);
+// }
+
+.cd-title {
+  height: 50%;
+}
+.cd-title::before {
+  /* background image */
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  overflow: hidden;
+}
+.single-project:nth-of-type(1) .cd-title::before {
+  background-image: url(../assets/images/mtm.jpg);
+}
+
+.single-project:nth-of-type(2) .cd-title::before {
+  background-image: url(../assets/images/ram.jpg);
+}
+
+.cd-projects-container .single-project.selected {
+  /* selected project */
+  transform: translateY(0);
+}
+.cd-projects-container .single-project.selected ~ li {
+  /* hide siblings projects */
+  transform: translateY(100%);
+}
+
+.cd-project-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.4s, visibility 0.4s;
+}
+.cd-project-info::before {
+  /* use to push the .content-wrapper below the intro project image */
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+}
+.cd-project-info .content-wrapper {
+  position: relative;
+  z-index: 2;
+  background-color: #FFFFFF;
+  padding: 50px;
+}
+.selected .cd-project-info {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0s, visibility 0s;
+}
+
+.cd-scroll {
+  background-image: url(../assets/images/scroll.svg);
+  height: 40px;
+  width: 40px;
+  background-repeat: no-repeat;
+  background-size: auto;
+  top: calc(100% - 100px);
+  left: 50%;
+  right: auto;
+  position: fixed;
+}

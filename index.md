@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Cécile Dezy | Junior Fullstack Developer
+title: Cécile Dezy | Fullstack Developper
 ---
 
 <!-- ---- ABOUT SECTION ---- -->
@@ -48,44 +48,46 @@ title: Cécile Dezy | Junior Fullstack Developer
       <h4><a href="#contact" class="smoothScroll">Contact</a></h4>
     </div>
   </div>
-  <div class="content text-center" id="work-content" onclick="incWidth()">
-    <main class="cd-main">
-    <ul class="cd-gallery">
-      <li class="cd-item mtm">
-        <a href="item-1.html">
-          <div>
-            <h2>Mind the Map</h2>
-            <b>View More</b>
+  <div class="content text-center cd-projects-container" id="work-content"> <!-- onclick="incWidth() -->
+    <ul>
+      <li class="single-project">
+        <div class="cd-title mtm">
+          <h2>Mind the Map</h2>
+        </div> <!-- .cd-title -->
+        <div class="cd-project-info">
+          <div class="cd-scroll"></div>
+          <div class="content-wrapper">
+            <img src="{{ site.baseurl }}/assets/images/mu-mtm.png" alt="mind the map" style="width: 100%;">
+            <p>
+              Mind the Map is a geographic game, for every people who want to know better their city.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, optio, perferendis. Accusamus, unde blanditiis dicta cupiditate iure inventore commodi reiciendis temporibus debitis ratione doloribus autem quas molestias aliquid ab suscipit!
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam sunt quis, optio ipsum! Facere aperiam eum nostrum iusto, beatae consequuntur deleniti dolorum suscipit totam eius saepe laudantium ratione! Amet, obcaecati!
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam molestias suscipit mollitia vitae ea non ex, dignissimos aperiam minus magni totam sint culpa vel voluptate ipsa sunt repellendus. Ab, magni!
+            </p>
+            <!-- additional project info here -->
           </div>
-        </a>
+        </div> <!-- .cd-project-info -->
       </li>
-      <li class="cd-item ram">
-        <a href="item-2.html">
-          <div>
-            <h2>Rent a mobile</h2>
-            <b>View More</b>
+      <li class="single-project">
+        <div class="cd-title">
+          <h2>Rent a mobile</h2>
+        </div> <!-- .cd-title -->
+        <div class="cd-project-info">
+          <div class="cd-scroll"></div>
+          <div class="content-wrapper">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam molestias suscipit mollitia vitae ea non ex, dignissimos aperiam minus magni totam sint culpa vel voluptate ipsa sunt repellendus. Ab, magni!
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet praesentium officiis quia asperiores mollitia fuga facere, dolore alias neque, modi sit consequuntur repellat incidunt. Aut ipsa rem ullam tenetur quis.
+              Cupiditate ipsum eum explicabo architecto dicta minima ratione repellendus quae error tempore aut debitis, quam, consequatur sapiente! Sapiente, velit ex reprehenderit molestiae libero est optio dolore repellendus saepe quaerat! Asperiores?
+              Dolorum optio sed minus ipsum ipsam rerum dolorem quae accusamus? Molestias officiis laboriosam quod eius explicabo fugit saepe assumenda, praesentium, commodi vero sint repellendus magnam similique facilis architecto culpa voluptate?
+            </p>
+            <!-- additional project info here -->
           </div>
-        </a>
+        </div> <!-- .cd-project-info -->
       </li>
+      <!-- other projects here -->
     </ul>
-    </main>
-    <div class="cd-folding-panel">
-      <div class="fold-left">
-      </div> <!-- this is the left fold -->
-      <div class="fold-right">
-      </div> <!-- this is the right fold -->
-      <div class="cd-fold-content mtm">
-         <!-- content will be loaded using javascript -->
-        <h2>Mind the Map</h2>
-        <img src="{{ site.baseurl }}/assets/images/mu-mtm.png" alt="mind the map">
-        <p>Mind the Map is a geographic game, for every people who want to know better their city.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur autem quidem ipsa, eveniet unde distinctio! Fuga sunt iste, natus doloremque temporibus sed porro dolorem, est quidem amet consequuntur quae maiores.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt architecto, doloribus eaque et nostrum, quos a velit. Adipisci porro rerum aspernatur, doloribus temporibus at. Aperiam nemo, perferendis tempore est recusandae.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error minus assumenda modi, harum repellat! Alias pariatur inventore ut ex, tempore voluptatum. Deleniti, ipsum, error. Placeat eveniet ipsam, dolor fugiat possimus.
-        </p>
-      </div>
-    </div>
-  </div>
+  </div> <!-- .cd-projects-container -->
 </div>
 
 <!-- ---- SKILLS SECTION ---- -->
@@ -202,13 +204,16 @@ title: Cécile Dezy | Junior Fullstack Developer
   </div>
 </div>
 
-<script type="text/javascript">
+<!-- <script type="text/javascript">
   const incWidth = () => {
     const work = document.getElementById("work-content");
     work.addEventListener("click", (event) => {
       work.style.width = 100 + '%';
     });
   }
+</script> -->
+<script>
+jQuery(document).ready(function(event){var projectsContainer=$('.cd-projects-container'),navigation=$('.cd-primary-nav'),triggerNav=$('.cd-nav-trigger'),logo=$('.cd-logo');triggerNav.on('click',function(){if(triggerNav.hasClass('project-open')){projectsContainer.removeClass('project-open').find('.selected').removeClass('selected').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',function(){$(this).children('.cd-project-info').scrollTop(0).removeClass('has-boxshadow');});triggerNav.add(logo).removeClass('project-open');}else{triggerNav.add(projectsContainer).add(navigation).toggleClass('nav-open');}});projectsContainer.on('click','.single-project',function(){var selectedProject=$(this);if(projectsContainer.hasClass('nav-open')){triggerNav.add(projectsContainer).add(navigation).removeClass('nav-open');}else{selectedProject.addClass('selected');projectsContainer.add(triggerNav).add(logo).addClass('project-open');}});projectsContainer.on('click','.cd-scroll',function(){var visibleProjectContent=projectsContainer.find('.selected').children('.cd-project-info'),windowHeight=$(window).height();visibleProjectContent.animate({'scrollTop':windowHeight},300);});var scrolling=false;projectsContainer.find('.cd-project-info').on('scroll',function(){if(!scrolling){(!window.requestAnimationFrame)?setTimeout(updateProjectContent,300):window.requestAnimationFrame(updateProjectContent);scrolling=true;}});function updateProjectContent(){var visibleProject=projectsContainer.find('.selected').children('.cd-project-info'),scrollTop=visibleProject.scrollTop();(scrollTop>0)?visibleProject.addClass('has-boxshadow'):visibleProject.removeClass('has-boxshadow');scrolling=false;}});
 </script>
 
 <script type="text/javascript">
