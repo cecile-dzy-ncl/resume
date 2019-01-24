@@ -81,7 +81,7 @@ time {
 
 .h1-hp {
   color: #fff;
-  font-size: 150px;
+  font-size: 130px;
   margin: 0 0;
 }
 
@@ -137,7 +137,11 @@ footer {
     width: 50%;
     background: white;
     padding: 0 50px;
+
+    ul {
+      margin: 0;
     }
+  }
 }
 
 #about {
