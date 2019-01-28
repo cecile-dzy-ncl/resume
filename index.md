@@ -49,7 +49,7 @@ title: Cécile Dezy | Fullstack Developper
     </div>
   </div>
   <div class="content text-center cd-projects-container" id="work-content"> <!-- onclick="incWidth() -->
-  <button class="cd-nav-trigger"><i class="fas fa-times"></i><span aria-hidden="true" class="cd-icon"></span></button>
+  <div class="cd-nav-trigger"><span aria-hidden="true" class="cd-icon"></span></div>
     <ul>
       <li class="single-project">
         <div class="cd-title mtm">

@@ -87,12 +87,12 @@
 }
 
 .cd-scroll {
-  background-image: url(../assets/images/scroll.svg);
+  background-image: url(../assets/images/arrow.svg);
   height: 40px;
   width: 40px;
   background-repeat: no-repeat;
   background-size: auto;
-  top: calc(100% - 100px);
+  top: calc(100% - 50px);
   left: 50%;
   right: auto;
   position: fixed;
@@ -100,33 +100,34 @@
 }
 
 .project-open.cd-nav-trigger {
-  top: 24px;
-  right: 5%;
-  height: 44px;
-  width: 44px;
-  border-radius: 50%;
-  background-color: rgb(218, 191, 187);
+  background-image: url(../assets/images/close.svg);
+  top: 25px;
+  right: 25px;
+  height: 40px;
+  width: 40px;
+  // border-radius: 50%;
+  // background-color: rgb(218, 191, 187);
   -webkit-transition: background .2s;
   -moz-transition: background .2s;
   transition: background .2s;
   overflow: hidden;
-  text-indent: 100%;
-  white-space: nowrap;
-  color: transparent;
+  // text-indent: 100%;
+  // white-space: nowrap;
+  // color: transparent;
   position: absolute;
   z-index: 3;
   border: none;
 }
 
-.fa-times {
-  color: white;
-  font-size: 23px;
-  font-weight: 600 !important;
-  display: block !important;
-  right: 13px;
-  top: 11px;
-  position: absolute;
-}
+// .fa-times {
+//   color: white;
+//   font-size: 23px;
+//   font-weight: 600 !important;
+//   display: block !important;
+//   right: 13px;
+//   top: 11px;
+//   position: absolute;
+// }
 
 // .cd-nav-trigger .cd-icon {
 //   display: inline-block;
