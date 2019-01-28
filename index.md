@@ -19,8 +19,10 @@ title: Cécile Dezy | Fullstack Developper
       <h4><a href="#contact" class="smoothScroll">Contact</a></h4>
     </div>
   </div>
-  <div class="profile">
-  </div>
+  <!-- <div style="background-image: url('/resume/assets/images/testtete.svg');height: 400px;width: 220px;background-size: cover;position: absolute;top: 810px;left: 500px;background-repeat: no-repeat;">
+  </div> -->
+  <!-- <div class="profile">
+  </div> -->
   <div class="content text-center">
     <img src="{{ site.baseurl }}/assets/images/profile.png" alt="profile pic" id="profile-pic">
     <div class="text-about">

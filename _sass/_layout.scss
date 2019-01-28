@@ -145,11 +145,11 @@ footer {
 }
 
 #about {
-  background: #774401;
+  background: #c52f21;
 }
 
 #work {
-  background: #DABFBB;
+  background: #2A44FF;
 
   // h1 {
   //   color: #000;
@@ -161,7 +161,7 @@ footer {
 }
 
 #contact {
-  background: #2A44FF;
+  background: #DABFBB;
 }
 
 #me {
@@ -220,7 +220,7 @@ footer {
   width: 150px;
   border-radius: 50%;
   position: relative;
-  top: 0;
+  top: 30px;
   left: -126px;
 }
 
@@ -246,9 +246,10 @@ footer {
 }
 
 .text-about {
-  margin-top: -100px;
-  margin-left: 50px;
-  margin-right: 50px;
+  // margin-top: -100px;
+  margin-left: 60px;
+  margin-right: 30px;
+  margin-top: -80px;
 }
 
 .skill {
