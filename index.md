@@ -60,13 +60,14 @@ title: Cécile Dezy | Fullstack Developper
         <div class="cd-project-info">
           <div class="cd-scroll"></div>
           <div class="content-wrapper">
-            <img src="{{ site.baseurl }}/assets/images/mu-mtm.png" alt="mind the map" style="width: 100%;">
+            <a href="http://www.mindthemapgame.com/" target="_blank" class="pic-mtm"><img src="{{ site.baseurl }}/assets/images/logo-mtm.svg" alt="mind the map"></a>
+            <img src="{{ site.baseurl }}/assets/images/mu-mtm.png" alt="mind the map" style="width: 65%;">
             <p>
               Mind the Map is a geographic game, for every people who want to know better their city.
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, optio, perferendis. Accusamus, unde blanditiis dicta cupiditate iure inventore commodi reiciendis temporibus debitis ratione doloribus autem quas molestias aliquid ab suscipit!
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam sunt quis, optio ipsum! Facere aperiam eum nostrum iusto, beatae consequuntur deleniti dolorum suscipit totam eius saepe laudantium ratione! Amet, obcaecati!
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam molestias suscipit mollitia vitae ea non ex, dignissimos aperiam minus magni totam sint culpa vel voluptate ipsa sunt repellendus. Ab, magni!
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam sunt quis, optio ipsum!
             </p>
+            <div class="btn-mtm"><a href="https://youtu.be/ICliaJ8Krpg?t=2208" target="_blank">See demo</a></div>
             <!-- additional project info here -->
           </div>
         </div> <!-- .cd-project-info -->

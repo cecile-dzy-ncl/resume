@@ -78,6 +78,10 @@
   background-color: #5f6781;
   padding: 50px;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .selected .cd-project-info {
@@ -122,30 +126,20 @@
 .single-project h2 {
   z-index: 10;
 }
-// .fa-times {
-//   color: white;
-//   font-size: 23px;
-//   font-weight: 600 !important;
-//   display: block !important;
-//   right: 13px;
-//   top: 11px;
-//   position: absolute;
-// }
 
-// .cd-nav-trigger .cd-icon {
-//   display: inline-block;
-//   width: 18px;
-//   height: 2px;
-//   left: 50%;
-//   top: 50%;
-//   bottom: auto;
-//   right: auto;
-//   -webkit-transform: translateX(-50%) translateY(-50%);
-//   -moz-transform: translateX(-50%) translateY(-50%);
-//   -ms-transform: translateX(-50%) translateY(-50%);
-//   -o-transform: translateX(-50%) translateY(-50%);
-//   transform: translateX(-50%) translateY(-50%);
-//   -webkit-transition: -webkit-transform .3s,background-color .3s;
-//   -moz-transition: -moz-transform .3s,background-color .3s;
-//   transition: transform .3s,background-color .3s;
-// }
+.btn-mtm {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 6px;
+  background: #860CE6;
+  transition: background 0.3s ease;
+}
+
+.btn-mtm:hover {
+  background: #7A2CDD;
+  color: white;
+}
+
+.pic-mtm {
+  width: 40%;
+}
