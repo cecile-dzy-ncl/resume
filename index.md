@@ -4,8 +4,8 @@ title: Cécile Dezy | Fullstack Developper
 ---
 
 <!-- ---- ABOUT SECTION ---- -->
-<div class="section" id="about">
-  <div class="title text-center">
+<div class="section ass" id="about">
+  <div class="title text-center ">
     <div class="title-about">
       <h1>ABOUT</h1>
     </div>
@@ -37,8 +37,8 @@ title: Cécile Dezy | Fullstack Developper
 </div>
 
 <!-- ---- WORK SECTION ---- -->
-<div class="section" id="work">
-  <div class="title text-center">
+<div class="section wcs" id="work">
+  <div class="title text-center wcs">
     <h1>WORK</h1>
     <div class="menu-section">
       <h4><a href="#about" class="smoothScroll">About</a></h4>
@@ -94,8 +94,8 @@ title: Cécile Dezy | Fullstack Developper
 </div>
 
 <!-- ---- SKILLS SECTION ---- -->
-<div class="section" id="skills">
-  <div class="title text-center">
+<div class="section ass" id="skills">
+  <div class="title text-center ass">
     <h1>SKILLS</h1>
     <div class="menu-section">
       <h4><a href="#about" class="smoothScroll">About</a></h4>
@@ -174,7 +174,7 @@ title: Cécile Dezy | Fullstack Developper
 </div>
 
 <!-- ---- CONTACT SECTION ---- -->
-<div class="section" id="contact">
+<div class="section wcs" id="contact">
   <div class="title text-center">
     <h1>CONTACT</h1>
     <div class="menu-section">

@@ -13,6 +13,52 @@ h3 {
   font-weight: 600;
   font-family: $heading-font;
   line-height: 1.5;
+  // color: white;
+}
+
+.wcs {
+  h1,h4,a {
+    color: black;
+  }
+
+  .content {
+    background-color: #606881;
+    color: white;
+
+    a {
+      color: white;
+    }
+
+    a:hover {
+      color: #2b4bf5;
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+  }
+}
+
+.ass {
+  h1,h4,a {
+    color: white;
+  }
+
+  .content {
+    background-color: white;
+
+    p {
+      color: black;
+    }
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  border-bottom: 1px dotted;
+  padding-bottom: 10px;
 }
 
 header {
@@ -45,13 +91,7 @@ header {
     }
 
     a {
-      color: #fff;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: none;
-      border-bottom: 1px dotted;
-      padding-bottom: 10px;
+      color: white;
     }
   }
   .header-center {
@@ -107,10 +147,6 @@ footer {
     font-family: $heading-font;
     font-size: 40px;
 
-    h1 {
-      color: #fff;
-    }
-
     .menu-section {
       display: flex;
       color: #fff;
@@ -119,23 +155,12 @@ footer {
         padding: 0 15px;
         font-size: 24px;
       }
-
-      a {
-        color: #fff;
-        text-decoration: none;
-      }
-      a:hover {
-        text-decoration: none;
-        border-bottom: 1px dotted;
-        padding-bottom: 10px;
-      }
     }
   }
 
   .content {
     height: 100vh;
     width: 50%;
-    background: white;
     padding: 0 50px;
 
     ul {
@@ -149,7 +174,7 @@ footer {
 }
 
 #work {
-  background: #2A44FF;
+  background: #fff;
 
   // h1 {
   //   color: #000;
@@ -157,11 +182,11 @@ footer {
 }
 
 #skills {
-  background: #FF9A21;
+  background: #2A4CF5;
 }
 
 #contact {
-  background: #DABFBB;
+  background: #fff;
 }
 
 #me {
@@ -173,10 +198,6 @@ footer {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-
-  a:hover {
-    color: red;
-  }
 }
 
 .contact-info {
@@ -203,7 +224,6 @@ footer {
 .fab {
   height: 50px;
   width: 50px;
-  color: #2A44FF;
   font-size: 40px;
   margin: 20px;
   padding: 5px;
@@ -322,7 +342,6 @@ footer {
       font-size: 32px;
 
       h1 {
-        color: #fff;
         font-size: 56px;
       }
 
