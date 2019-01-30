@@ -75,7 +75,7 @@
 .cd-project-info .content-wrapper {
   position: relative;
   z-index: 2;
-  background-color: #5f6781;
+  background-color: #898fa1;
   padding: 50px;
   height: 100vh;
   display: flex;
@@ -137,6 +137,19 @@
 
 .btn-mtm:hover {
   background: #7A2CDD;
+  color: white;
+}
+
+.btn-ram {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 6px;
+  background: #2ed3b5;
+  transition: background 0.3s ease;
+}
+
+.btn-ram:hover {
+  background: #29c6aa;
   color: white;
 }
 
