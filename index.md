@@ -19,10 +19,6 @@ title: Cécile Dezy | Fullstack Developper
       <h4><a href="#contact" class="smoothScroll">Contact</a></h4>
     </div>
   </div>
-  <!-- <div style="background-image: url('/resume/assets/images/testtete.svg');height: 400px;width: 220px;background-size: cover;position: absolute;top: 810px;left: 500px;background-repeat: no-repeat;">
-  </div> -->
-  <!-- <div class="profile">
-  </div> -->
   <div class="content text-center">
     <img src="{{ site.baseurl }}/assets/images/profile.png" alt="profile pic" id="profile-pic">
     <div class="text-about">
@@ -37,62 +33,49 @@ title: Cécile Dezy | Fullstack Developper
 </div>
 
 <!-- ---- WORK SECTION ---- -->
-<div class="section wcs" id="work">
-  <div class="title text-center wcs">
-    <h1>WORK</h1>
-    <div class="menu-section">
-      <h4><a href="#about" class="smoothScroll">About</a></h4>
-      <h4>.</h4>
-      <h4><a href="#work" class="smoothScroll">Work</a></h4>
-      <h4>.</h4>
-      <h4><a href="#skills" class="smoothScroll">Skills</a></h4>
-      <h4>.</h4>
-      <h4><a href="#contact" class="smoothScroll">Contact</a></h4>
+
+<div class="container section wcs" id="work">
+  <div class="title text-center wcs" id="work-menu">
+    <h1 class="work-title">WORK</h1>
+    <div class="menu-section work-menu-section">
+        <h4><a href="#about" class="smoothScroll">About</a></h4>
+        <h4>.</h4>
+        <h4><a href="#work" class="smoothScroll">Work</a></h4>
+        <h4>.</h4>
+        <h4><a href="#skills" class="smoothScroll">Skills</a></h4>
+        <h4>.</h4>
+        <h4><a href="#contact" class="smoothScroll">Contact</a></h4>
     </div>
   </div>
-  <div class="content text-center cd-projects-container" id="work-content"> <!-- onclick="incWidth() -->
-  <div class="cd-nav-trigger"><span aria-hidden="true" class="cd-icon"></span></div>
-    <ul>
-      <li class="single-project">
-        <div class="cd-title mtm">
-          <h2>Mind the Map</h2>
-        </div> <!-- .cd-title -->
-        <div class="cd-project-info">
-          <div class="cd-scroll"></div>
-          <div class="content-wrapper">
-            <a href="http://www.mindthemapgame.com/" target="_blank" class="pic-mtm"><img src="{{ site.baseurl }}/assets/images/logo-mtm.svg" alt="mind the map"></a>
-            <img src="{{ site.baseurl }}/assets/images/mu-mtm.png" alt="mind the map" style="width: 65%;">
-            <p>
-              Mind the Map is a geographic game, for every people who want to know better their city.
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, optio, perferendis. Accusamus, unde blanditiis dicta cupiditate iure inventore commodi reiciendis temporibus debitis ratione doloribus autem quas molestias aliquid ab suscipit!
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam sunt quis, optio ipsum!
-            </p>
-            <div class="btn-mtm"><a href="https://youtu.be/ICliaJ8Krpg?t=2208" target="_blank">See demo</a></div>
-            <!-- additional project info here -->
+  <div class="content text-center work-content" id="work-content">
+    <div class="entry">
+      <h1>Mind the Map</h1>
+      <div class="details">
+        <!-- si on veut mettre le logo de MtM -->
+        <!-- <a href="http://www.mindthemapgame.com/" target="_blank" class="pic-mtm"><img src="{{ site.baseurl }}/assets/images/logo-mtm.svg" alt="mind the map"></a> -->
+        <div class="details-text">
+          <p>
+            Mind the Map is a geographic game, for every people who want to know better their city.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, optio, perferendis. Accusamus, unde blanditiis dicta cupiditate iure inventore commodi reiciendis temporibus debitis ratione doloribus autem quas molestias aliquid ab suscipit!
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam sunt quis, optio ipsum!
+          </p>
+          <div class="btn-mtm">
+            <a href="https://youtu.be/ICliaJ8Krpg?t=2208" target="_blank">See demo</a>
           </div>
-        </div> <!-- .cd-project-info -->
-      </li>
-      <li class="single-project">
-        <div class="cd-title">
-          <h2>Rent a mobile</h2>
-        </div> <!-- .cd-title -->
-        <div class="cd-project-info">
-          <div class="cd-scroll"></div>
-          <div class="content-wrapper">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam molestias suscipit mollitia vitae ea non ex, dignissimos aperiam minus magni totam sint culpa vel voluptate ipsa sunt repellendus. Ab, magni!
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet praesentium officiis quia asperiores mollitia fuga facere, dolore alias neque, modi sit consequuntur repellat incidunt. Aut ipsa rem ullam tenetur quis.
-              Cupiditate ipsum eum explicabo architecto dicta minima ratione repellendus quae error tempore aut debitis, quam, consequatur sapiente! Sapiente, velit ex reprehenderit molestiae libero est optio dolore repellendus saepe quaerat! Asperiores?
-              Dolorum optio sed minus ipsum ipsam rerum dolorem quae accusamus? Molestias officiis laboriosam quod eius explicabo fugit saepe assumenda, praesentium, commodi vero sint repellendus magnam similique facilis architecto culpa voluptate?
-            </p>
-            <div class="btn-ram"><a href="https://youtu.be/ICliaJ8Krpg?t=2208" target="_blank">See website</a></div>
-            <!-- additional project info here -->
-          </div>
-        </div> <!-- .cd-project-info -->
-      </li>
-      <!-- other projects here -->
-    </ul>
-  </div> <!-- .cd-projects-container -->
+        </div>
+        <div class="details-img">
+          <a href="http://www.mindthemapgame.com/" target="_blank"><img src="{{ site.baseurl }}/assets/images/mu-mtm.png" alt="mind the map" style="width: 50%;"></a>
+        </div>
+      </div>
+    </div>
+    <div class="entry">
+      <h1>Rent a mobile</h1>
+      <div class="details">
+        <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam culpa dolorum accusantium, illo assumenda modi, ipsam numquam, molestiae hic cupiditate rem necessitatibus. Repudiandae, autem aliquid quia possimus facere totam voluptates.</span>
+        </p>
+      </div>
+    </div>
+  </div>
 </div>
 
 <!-- ---- SKILLS SECTION ---- -->
@@ -209,57 +192,50 @@ title: Cécile Dezy | Fullstack Developper
   </div>
 </div>
 
-<!-- <script type="text/javascript">
-  const incWidth = () => {
-    const work = document.getElementById("work-content");
-    work.addEventListener("click", (event) => {
-      work.style.width = 100 + '%';
+<script>
+
+  function clearSections(){
+    document.querySelectorAll(".selected").forEach((item)=>{
+      item.classList.remove("selected");
     });
   }
-</script> -->
-<script>
-jQuery(document).ready(function(event){
-  var projectsContainer=$('.cd-projects-container'),navigation=$('.cd-primary-nav'),triggerNav=$('.cd-nav-trigger'),logo=$('.cd-logo');triggerNav.on('click',function(){if(triggerNav.hasClass('project-open')){projectsContainer.removeClass('project-open').find('.selected').removeClass('selected').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',function(){$(this).children('.cd-project-info').scrollTop(0).removeClass('has-boxshadow');});triggerNav.add(logo).removeClass('project-open');}else{triggerNav.add(projectsContainer).add(navigation).toggleClass('nav-open');}});projectsContainer.on('click','.single-project',function(){var selectedProject=$(this);if(projectsContainer.hasClass('nav-open')){triggerNav.add(projectsContainer).add(navigation).removeClass('nav-open');}else{selectedProject.addClass('selected');projectsContainer.add(triggerNav).add(logo).addClass('project-open');}});projectsContainer.on('click','.cd-scroll',function(){var visibleProjectContent=projectsContainer.find('.selected').children('.cd-project-info'),windowHeight=$(window).height();visibleProjectContent.animate({'scrollTop':windowHeight},300);});
-  var scrolling=false;
-  projectsContainer.find('.cd-project-info').on('scroll',function(){if(!scrolling){(!window.requestAnimationFrame)?setTimeout(updateProjectContent,300):window.requestAnimationFrame(updateProjectContent);scrolling=true;}});
-  function updateProjectContent(){var visibleProject=projectsContainer.find('.selected').children('.cd-project-info'),scrollTop=visibleProject.scrollTop();(scrollTop>0)?visibleProject.addClass('has-boxshadow'):visibleProject.removeClass('has-boxshadow');scrolling=false;}});
-</script>
 
-<script type="text/javascript">
-  /* open folding content */
-  $('.cd-gallery a').on('click', function(event){
-     event.preventDefault();
-     openItemInfo($(this).attr('href'));
-  });
-  function openItemInfo(url) {
-     /* check if mobile or desktop */
-     var mq = viewportSize();
-     if( $('.cd-gallery').offset().top > $(window).scrollTop() && mq != 'mobile') {
-        /* if content is visible above the .cd-gallery - scroll before opening the folding panel */
-        $('body,html').animate({
-           'scrollTop': $('.cd-gallery').offset().top
-        }, 100, function(){
-           toggleContent(url, true);
-        });
-
-     } else {
-        toggleContent(url, true);
-     }
+  function reset(){
+    clearSections();
+    const container = document.querySelector(".container");
+    container.classList.remove("open");
   }
 
-  function toggleContent(url, bool) {
-     if( bool ) {
-        /* load and show new content */
-        $('.cd-fold-content').load(url+' .cd-fold-content > *', function(event){
-           $('body').addClass('overflow-hidden');
-           $('.cd-folding-panel').addClass('is-open');
-           $('.cd-main').addClass('fold-is-open');
-        });
-     } else {
-        /* close the folding panel */
-        $('.cd-folding-panel').removeClass('is-open')
-        $('.cd-main').removeClass('fold-is-open');
-        /* ...*/
-     }
+
+  function selectEntry(event){
+    const t = event.target.closest(".entry");
+    const container = document.querySelector(".container");
+    const work = document.querySelector(".work-title");
+    const menu = document.querySelector(".work-menu-section");
+    // const w = document.querySelector("#work-menu h1").innerText.charAt(0);
+
+
+    if(t.classList.contains("selected")){
+      clearSections();
+      container.classList.remove("open");
+      work.classList.remove("change");
+      menu.classList.remove("disappear");
+    }else{
+      clearSections();
+      container.classList.add("open");
+      t.classList.add("selected");
+      work.classList.add("change");
+      menu.classList.add("disappear");
+    }
   }
+
+
+  function init(){
+    document.querySelector("#work-content").addEventListener('click' ,selectEntry);
+    document.querySelector("#work-menu").addEventListener('click', reset);
+  }
+
+
+  document.addEventListener("DOMContentLoaded", init);
 </script>
+
