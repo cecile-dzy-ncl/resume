@@ -36,7 +36,14 @@ title: Cécile Dezy | Fullstack Developper
 
 <div class="container section wcs" id="work">
   <div class="title text-center wcs" id="work-menu">
-    <h1 class="work-title">WORK</h1>
+    <div class="work">
+      <div class="w">
+        <h1>W</h1>
+      </div>
+      <div class="ork">
+        <h1>ORK</h1>
+      </div>
+    </div>
     <div class="menu-section work-menu-section">
         <h4><a href="#about" class="smoothScroll">About</a></h4>
         <h4>.</h4>
@@ -203,14 +210,25 @@ title: Cécile Dezy | Fullstack Developper
   function reset(){
     clearSections();
     const container = document.querySelector(".container");
+    const work = document.querySelector(".work-title");
+    const menu = document.querySelector(".work-menu-section");
+    const w = document.querySelector(".w");
+    const ork = document.querySelector(".ork");
+
     container.classList.remove("open");
+    w.classList.remove("change");
+    ork.classList.remove("disappear");
+    work.classList.remove("change");
+    menu.classList.remove("disappear");
   }
 
 
   function selectEntry(event){
     const t = event.target.closest(".entry");
     const container = document.querySelector(".container");
-    const work = document.querySelector(".work-title");
+    const w = document.querySelector(".w");
+    const ork = document.querySelector(".ork");
+    const work = document.querySelector(".work");
     const menu = document.querySelector(".work-menu-section");
     // const w = document.querySelector("#work-menu h1").innerText.charAt(0);
 
@@ -218,6 +236,8 @@ title: Cécile Dezy | Fullstack Developper
     if(t.classList.contains("selected")){
       clearSections();
       container.classList.remove("open");
+      w.classList.remove("change");
+      ork.classList.remove("disappear");
       work.classList.remove("change");
       menu.classList.remove("disappear");
     }else{
@@ -225,6 +245,8 @@ title: Cécile Dezy | Fullstack Developper
       container.classList.add("open");
       t.classList.add("selected");
       work.classList.add("change");
+      w.classList.add("change");
+      ork.classList.add("disappear");
       menu.classList.add("disappear");
     }
   }

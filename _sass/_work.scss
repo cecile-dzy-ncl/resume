@@ -98,13 +98,22 @@ h1{
   display: block;
 }
 
-.work-title {
+.w {
   transition: all 0.7s ease-out;
 }
 
-.work-title.change {
+.w.change {
   transform: rotate(-90deg);
-  transition: transform 0.7s ease-out;
+  transition: all 0.7s ease-out;
+}
+
+.ork {
+  transition: all 0.7s ease-out;
+}
+
+.ork.disappear {
+  display: none;
+  transition: all 0.7s ease-out;
 }
 
 .section .title .work-menu-section {
@@ -114,6 +123,16 @@ h1{
 .section .title .work-menu-section.disappear {
   transition: all 0.7s ease-out;
   display: none;
+}
+
+.work {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.work.change {
+  display: block
 }
 // faire un display flex avec une colonne texte et bouton et une avec l'illu - mais il y a deja un display block
 // .details {
