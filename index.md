@@ -55,8 +55,10 @@ title: Cécile Dezy | Fullstack Developper
     </div>
   </div>
   <div class="content text-center work-content" id="work-content">
-    <div class="entry">
-      <h1>Mind the Map</h1>
+    <div class="entry mtm">
+      <div class="entry-title">
+        <h1>Mind the Map</h1>
+      </div>
       <div class="details">
         <!-- si on veut mettre le logo de MtM -->
         <!-- <a href="http://www.mindthemapgame.com/" target="_blank" class="pic-mtm"><img src="{{ site.baseurl }}/assets/images/logo-mtm.svg" alt="mind the map"></a> -->
@@ -66,20 +68,34 @@ title: Cécile Dezy | Fullstack Developper
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, optio, perferendis. Accusamus, unde blanditiis dicta cupiditate iure inventore commodi reiciendis temporibus debitis ratione doloribus autem quas molestias aliquid ab suscipit!
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam sunt quis, optio ipsum!
           </p>
+        </div>
+        <div class="details-img">
+          <a href="http://www.mindthemapgame.com/" target="_blank"><img src="{{ site.baseurl }}/assets/images/mu-mtm.png" alt="mind the map" style="width: 100%;"></a>
+          <div class="mtm-btns">
+            <div class="btn-mtm">
+              <a href="https://youtu.be/ICliaJ8Krpg?t=2208" target="_blank">See demo</a>
+            </div>
+            <div class="btn-mtm">
+              <a href="http://www.mindthemapgame.com/" target="_blank">See website</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="entry ram">
+      <div class="entry-title">
+        <h1>Rent a mobile</h1>
+      </div>
+      <div class="details">
+        <div class="details-text">
+          <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam culpa dolorum accusantium, illo assumenda modi, ipsam numquam, molestiae hic cupiditate rem necessitatibus. Repudiandae, autem aliquid quia possimus facere totam voluptates.</span></p>
           <div class="btn-mtm">
             <a href="https://youtu.be/ICliaJ8Krpg?t=2208" target="_blank">See demo</a>
           </div>
         </div>
         <div class="details-img">
-          <a href="http://www.mindthemapgame.com/" target="_blank"><img src="{{ site.baseurl }}/assets/images/mu-mtm.png" alt="mind the map" style="width: 50%;"></a>
+          <a href="http://www.mindthemapgame.com/" target="_blank"><img src="{{ site.baseurl }}/assets/images/mu-mtm.png" alt="mind the map" style="width: 100%;"></a>
         </div>
-      </div>
-    </div>
-    <div class="entry">
-      <h1>Rent a mobile</h1>
-      <div class="details">
-        <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam culpa dolorum accusantium, illo assumenda modi, ipsam numquam, molestiae hic cupiditate rem necessitatibus. Repudiandae, autem aliquid quia possimus facere totam voluptates.</span>
-        </p>
       </div>
     </div>
   </div>
