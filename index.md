@@ -64,14 +64,27 @@ title: Cécile Dezy | Fullstack Developper
         <!-- <a href="http://www.mindthemapgame.com/" target="_blank" class="pic-mtm"><img src="{{ site.baseurl }}/assets/images/logo-mtm.svg" alt="mind the map"></a> -->
         <div class="details-text">
           <p>
-            Mind the Map is a geographic game, for every people who want to know better their city.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, optio, perferendis. Accusamus, unde blanditiis dicta cupiditate iure inventore commodi reiciendis temporibus debitis ratione doloribus autem quas molestias aliquid ab suscipit!
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam sunt quis, optio ipsum!
+            You just arrived in Paris, you have heard about all the great monuments and sightseeing but can place them on a map?
+            Discover your city and have fun playing <a href="http://www.mindthemapgame.com/" target="_blank">Mind the Map</a>!
+            The game if simple : be the quickest and nearest to pin a given location on the map to be on the top of the leaderboard!
           </p>
+          <hr>
+          <div class="details-technos">
+            <p><strong>Technology</strong> - Ruby on Rails, Git, Cloudinary, PostegreSQL, Heroku</p>
+            <p><strong>Practices</strong> - Continuous Delivery</p>
+          </div>
+          <ul class="technos">
+            <li><i class="fas fa-check"></i>Ruby on Rails backend</li>
+            <li><i class="fas fa-check"></i>Authentication via Devise</li>
+            <li><i class="fas fa-check"></i>Geocoding via Google API</li>
+            <li><i class="fas fa-check"></i>Image upload via Cloudinary</li>
+            <li><i class="fas fa-check"></i>Solo and Duo play modes</li>
+            <li><i class="fas fa-check"></i>Dynamic loading with Ajax</li>
+          </ul>
         </div>
         <div class="details-img">
           <a href="http://www.mindthemapgame.com/" target="_blank"><img src="{{ site.baseurl }}/assets/images/mu-mtm.png" alt="mind the map" style="width: 100%;"></a>
-          <div class="mtm-btns">
+          <div class="details-btn">
             <div class="btn-mtm">
               <a href="https://youtu.be/ICliaJ8Krpg?t=2208" target="_blank">See demo</a>
             </div>
@@ -88,13 +101,30 @@ title: Cécile Dezy | Fullstack Developper
       </div>
       <div class="details">
         <div class="details-text">
-          <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam culpa dolorum accusantium, illo assumenda modi, ipsam numquam, molestiae hic cupiditate rem necessitatibus. Repudiandae, autem aliquid quia possimus facere totam voluptates.</span></p>
-          <div class="btn-mtm">
-            <a href="https://youtu.be/ICliaJ8Krpg?t=2208" target="_blank">See demo</a>
+          <p><span>You think buying a new mobile every year is a waste of money? You only need a phone for a few days? You have unused phones in you drawer? If you said yes to one of these questions, welcome to Rent a Mobile, where you can find phones to rent! </span></p>
+          <hr>
+          <div class="details-technos">
+            <p><strong>Technology</strong> - Ruby on Rails, Git, Cloudinary, PostegreSQL, Heroku</p>
+            <p><strong>Practices</strong> - Continuous Delivery</p>
           </div>
+          <ul class="technos">
+            <li><i class="fas fa-check"></i>Ruby on Rails backend</li>
+            <li><i class="fas fa-check"></i>Authentication via Devise</li>
+            <li><i class="fas fa-check"></i>Geocoding via Google API</li>
+            <li><i class="fas fa-check"></i>Image upload via Cloudinary</li>
+            <li><i class="fas fa-check"></i>Reviews & rating feature</li>
+            <li><i class="fas fa-check"></i>Datepicker feature</li>
+            <li><i class="fas fa-check"></i>Search via pg_search</li>
+            <li><i class="fas fa-check"></i>Bootstrap CSS frontend</li>
+          </ul>
         </div>
         <div class="details-img">
-          <a href="http://www.mindthemapgame.com/" target="_blank"><img src="{{ site.baseurl }}/assets/images/mu-mtm.png" alt="mind the map" style="width: 100%;"></a>
+          <a href="http://rent-a-mobile.herokuapp.com/" target="_blank"><img src="{{ site.baseurl }}/assets/images/mu-ram.png" alt="rent a mobile" style="width: 100%;"></a>
+          <div class="details-btn">
+            <div class="btn-ram">
+              <a href="http://rent-a-mobile.herokuapp.com/" target="_blank">See website</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
