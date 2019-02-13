@@ -91,7 +91,7 @@ h1{
 
 .container.open .entry{
   height: 10%;
-  transition: all 0.7s ease-out;
+  transition: height 0.7s ease-out;
 }
 
 .container.open .entry.selected{
@@ -99,7 +99,7 @@ h1{
   height: 90%;
   display: flex;
   flex-direction: column;
-  transition: all 0.7s ease-out;
+  transition: height 0.7s ease-out;
 
   h1 {
     color: black;
@@ -127,10 +127,24 @@ h1{
   p {
     color: black;
   }
+}
 
-  a {
-    color: #860CE6;
-    text-decoration: none;
+.mtm {
+
+  .details-text {
+      a {
+      color: #860CE6;
+      text-decoration: none;
+    }
+  }
+}
+
+.ram {
+  .details-text {
+      a {
+      color: #2ed3b5;
+      text-decoration: none;
+    }
   }
 }
 

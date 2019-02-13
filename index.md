@@ -65,7 +65,7 @@ title: Cécile Dezy | Fullstack Developper
         <div class="details-text">
           <p>
             You just arrived in Paris, you have heard about all the great monuments and sightseeing but can place them on a map?
-            Discover your city and have fun playing <a href="http://www.mindthemapgame.com/" target="_blank">Mind the Map</a>!
+            Discover your city and have fun playing <a href="http://www.mindthemapgame.com/" target="_blank">Mind the Map</a>!<br>
             The game if simple : be the quickest and nearest to pin a given location on the map to be on the top of the leaderboard!
           </p>
           <hr>
@@ -101,7 +101,7 @@ title: Cécile Dezy | Fullstack Developper
       </div>
       <div class="details">
         <div class="details-text">
-          <p><span>You think buying a new mobile every year is a waste of money? You only need a phone for a few days? You have unused phones in you drawer? If you said yes to one of these questions, welcome to Rent a Mobile, where you can find phones to rent! </span></p>
+          <p>You think buying a new mobile every year is a waste of money? You only need a phone for a few days? You have unused phones in you drawer? If you said yes to one of these questions, welcome to <a href="http://rent-a-mobile.herokuapp.com/" target="_blank">Rent a Mobile</a>, where you can find phones to rent!</p>
           <hr>
           <div class="details-technos">
             <p><strong>Technology</strong> - Ruby on Rails, Git, Cloudinary, PostegreSQL, Heroku</p>
@@ -234,7 +234,7 @@ title: Cécile Dezy | Fullstack Developper
     <div class="contact-info">
       <h5>Cécile Dezy</h5>
       <p>Junior Fullstack Developer</p>
-      <p><a href="mailto:cecile.dezy@gmail.com">cecile.dezy@gmail.com</a></p>
+      <p><a href="mailto:cecile.dezy@gmail.com" id="email">cecile.dezy@gmail.com</a></p>
       <p>+33 (0)6 77 13 65 54</p>
     </div>
     <div class="socials">
@@ -256,7 +256,7 @@ title: Cécile Dezy | Fullstack Developper
   function reset(){
     clearSections();
     const container = document.querySelector(".container");
-    const work = document.querySelector(".work-title");
+    const work = document.querySelector(".work");
     const menu = document.querySelector(".work-menu-section");
     const w = document.querySelector(".w");
     const ork = document.querySelector(".ork");

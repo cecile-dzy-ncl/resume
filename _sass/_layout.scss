@@ -229,6 +229,14 @@ footer {
   padding: 5px;
 }
 
+.fab:hover {
+  transform: scale(1.1);
+}
+
+#email:hover {
+  font-weight: bold;
+}
+
 .socials {
   display: flex;
   align-items: center;
@@ -241,7 +249,7 @@ footer {
   border-radius: 50%;
   position: relative;
   top: 30px;
-  left: -126px;
+  left: -75px;
 }
 
 .menu-skills {
@@ -266,9 +274,8 @@ footer {
 }
 
 .text-about {
-  // margin-top: -100px;
-  margin-left: 60px;
-  margin-right: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
   margin-top: -80px;
 }
 
@@ -290,14 +297,6 @@ footer {
 
   #r {
     height: 35px;
-  }
-
-  #g {
-    opacity: 0.6;
-  }
-
-  #g:hover {
-    opacity: 1;
   }
 }
 
@@ -380,12 +379,5 @@ footer {
     margin-right: 0px;
   }
 
-  #profile-pic {
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    position: relative;
-    top: 15px;
-    left: 98px;
-  }
+
 }
