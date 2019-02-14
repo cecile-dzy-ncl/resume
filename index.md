@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Cécile Dezy | Fullstack Developper
+title: Cécile Dezy | Frontend Web Developper
 ---
 
 <!-- ---- ABOUT SECTION ---- -->
