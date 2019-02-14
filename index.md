@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Cécile Dezy | Frontend Web Developper
+title: Cécile Dezy | Front-end Developper
 ---
 
 <!-- ---- ABOUT SECTION ---- -->
