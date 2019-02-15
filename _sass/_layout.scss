@@ -443,7 +443,16 @@ footer {
       h1, h4, a {
         color: white;
       }
+    }
 
+    .content {
+      a {
+        color: black;
+      }
+
+      .btn-mtm, .btn-ram a {
+        color: white;
+      }
     }
   }
 }

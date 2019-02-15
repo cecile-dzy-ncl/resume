@@ -303,7 +303,26 @@ title: Cécile Dezy | Front-end Developper
     document.querySelector("#work-menu").addEventListener('click', reset);
   }
 
+  if ($(window).width() >= 415) {
+    document.addEventListener("DOMContentLoaded", init);
 
-  document.addEventListener("DOMContentLoaded", init);
+
+  } else {
+
+    const target = document.querySelectorAll(".entry");
+    const container = document.querySelector(".container");
+    const w = document.querySelector(".w");
+    const ork = document.querySelector(".ork");
+    const work = document.querySelector(".work");
+    const menu = document.querySelector(".work-menu-section");
+
+    clearSections();
+    container.classList.add("open");
+    target.forEach((t) => t.classList.add("selected"));
+    // work.classList.add("change");
+    // w.classList.add("change");
+    // ork.classList.add("disappear");
+    // menu.classList.add("disappear");
+  };
 </script>
 

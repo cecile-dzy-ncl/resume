@@ -261,6 +261,66 @@ hr {
   align-items: center;
   justify-content: space-evenly;
 }
+
+@media (max-width: 414px) {
+  .container.open #work-menu {
+    width: 100%;
+    transition: width 0.7s ease-out;
+  }
+
+  .entry {
+    height: 100vh;
+  }
+
+  #work-content {
+    padding: 0;
+  }
+
+  .container.open .entry.selected {
+
+    height: 50%;
+
+    .details {
+      display: flex;
+      width: 100%;
+      height: 100%;
+      flex-direction: column;
+    }
+  }
+
+  .container.open .entry.selected .details .details-img {
+    height: 30%;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .container.open .entry.selected .details .details-text {
+    height: 66%;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  #work .content {
+    height: 300vh;
+    overflow: visible;
+  }
+
+  .entry-title {
+    height: 10%;
+  }
+
+  .technos {
+    grid-template-columns: 1fr;
+  }
+}
 // faire un display flex avec une colonne texte et bouton et une avec l'illu - mais il y a deja un display block
 // .details {
 //   display: flex;
