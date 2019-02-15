@@ -327,6 +327,10 @@ footer {
 
 @media (max-width: 414px) {
 
+  p {
+    font-size: 16px;
+  }
+
   header {
     .h1-hp {
       font-size: 60px;
@@ -363,6 +367,9 @@ footer {
     }
   }
 
+  #profile-pic {
+    display: none;
+  }
 
   .section {
     display: flex;
@@ -386,11 +393,11 @@ footer {
         font-size: 50px;
       }
 
-      .menu-section{
+      .menu-section {
 
         h4 {
           padding: 0 5px;
-          font-size: 12px;
+          font-size: 16px;
         }
       }
     }
@@ -401,14 +408,42 @@ footer {
       background: white;
       padding: 0 50px;
       overflow: scroll;
+      color: black;
+
+      .skill {
+
+        padding: 20px;
+
+        img {
+          height: 30px;
+        }
+
+        #r {
+          height: 25px;
+        }
+
+        p {
+          font-size: 14px;
+        }
+      }
     }
   }
 
   .text-about {
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin: 40px auto;
+    font-size: 16px;
   }
 
+  #work, #contact {
 
+    .title {
+      background-color: #898fa0;
+      width: 100%;
+
+      h1, h4, a {
+        color: white;
+      }
+
+    }
+  }
 }

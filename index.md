@@ -22,7 +22,7 @@ title: Cécile Dezy | Front-end Developper
   <div class="content text-center">
     <img src="{{ site.baseurl }}/assets/images/profile.png" alt="profile pic" id="profile-pic">
     <div class="text-about">
-      <p><strong>I am a Fullstack Web Developer living in Paris.</strong></p>
+      <p><strong>I am a Front-end Developer living in Paris.</strong></p>
       <p>After studying import/export and realise I needed a job with more purpose, so I did a Master in International Cooperation to work in NGOs. I joined Handicap International for an internship in communication and then Oxfam France, for 5 years in digital communication and customer success for their events.</p>
       <p>It was then that I decided to dig the digital side and learn to code with le Wagon Paris (batch#200).</p>
       <p>The code is creative, it's concrete! I love making stuff: sewing clothes, making my own cosmetics, embroidering ... I even start learning to tattoo! :)</p>
