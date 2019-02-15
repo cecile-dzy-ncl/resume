@@ -95,6 +95,7 @@ title: Cécile Dezy | Front-end Developper
         </div>
       </div>
     </div>
+    <hr id="hr-w-m">
     <div class="entry ram">
       <div class="entry-title">
         <h1>Rent a mobile</h1>

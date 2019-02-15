@@ -262,6 +262,10 @@ hr {
   justify-content: space-evenly;
 }
 
+#hr-w-m {
+  display: none;
+}
+
 @media (max-width: 414px) {
   .container.open #work-menu {
     width: 100%;
@@ -319,6 +323,15 @@ hr {
 
   .technos {
     grid-template-columns: 1fr;
+  }
+
+  #hr-w-m {
+    display: block;
+    background-color: #000;
+    border-style: none;
+    height: 1px;
+    margin: 0 auto;
+    width: 40%;
   }
 }
 // faire un display flex avec une colonne texte et bouton et une avec l'illu - mais il y a deja un display block
