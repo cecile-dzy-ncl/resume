@@ -22,11 +22,11 @@ title: Cécile Dezy | Front-end Developper
   <div class="content text-center">
     <img src="{{ site.baseurl }}/assets/images/profile.png" alt="profile pic" id="profile-pic">
     <div class="text-about">
-      <p><strong>I am a Front-end Developer living in Paris.</strong></p>
-      <p>After studying import/export and realise I needed a job with more purpose, so I did a Master in International Cooperation to work in NGOs. I joined Handicap International for an internship in communication and then Oxfam France, for 5 years in digital communication and customer success for their events.</p>
-      <p>It was then that I decided to dig the digital side and learn to code with le Wagon Paris (batch#200).</p>
+      <p><strong>I'm a Front-end Developer living in Paris.</strong></p>
+      <p>After studying import/export, I realised I needed a job with more purpose, so I did a Master in International Cooperation to work in NGOs. I joined Handicap International for an internship in communication and then Oxfam France, for 5 years in digital communication and customer success for their events.</p>
+      <p>I then decided to dig the digital side and learn to code with <a href="https://www.lewagon.com/fr" target="_blank">le Wagon</a> (batch#200 Paris).</p>
       <p>The code is creative, it's concrete! I love making stuff: sewing clothes, making my own cosmetics, embroidering ... I even start learning to tattoo! :)</p>
-      <p>I'm impressed by everything I can do w/ back-end, but I have a strong sensitivity for front-end development.</p>
+      <p>I'm impressed by everything that can be done w/ back-end, but I have a strong sensitivity for design and front-end development.</p>
       <p>I'm currently working as a Teaching Assistant at Le Wagon in Paris and looking for a job.</p>
     </div>
   </div>
@@ -229,8 +229,8 @@ title: Cécile Dezy | Front-end Developper
 
   <div class="content content-contact text-center">
     <div class="contact-text">
-      <p>If you want to collaborate on crafting amazing experience for people – you are very welcome to contact me.</p>
-      <p><strong>I am available for freelance projects and full-time employment.</strong></p>
+      <p>If you want to collaborate on building amazing experience for people – you are very welcome to contact me.</p>
+      <p><strong>I am available for freelance projects or full-time employment.</strong></p>
     </div>
     <div class="contact-info">
       <h5>Cécile Dezy</h5>
