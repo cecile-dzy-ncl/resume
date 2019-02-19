@@ -23,10 +23,10 @@ title: Cécile Dezy | Front-end Developper
     <img src="{{ site.baseurl }}/assets/images/profile.png" alt="profile pic" id="profile-pic">
     <div class="text-about">
       <p><strong>I'm a Front-end Developer living in Paris.</strong></p>
-      <p>After studying import/export, I realised I needed a job with more purpose, so I did a Master in International Cooperation to work in NGOs. I joined Handicap International for an internship in communication and then Oxfam France, for 5 years in digital communication and customer success for their events.</p>
-      <p>I then decided to dig the digital side and learn to code with <a href="https://www.lewagon.com/fr" target="_blank">le Wagon</a> (batch#200 Paris).</p>
-      <p>The code is creative, it's concrete! I love making stuff: sewing clothes, making my own cosmetics, embroidering ... I even start learning to tattoo! :)</p>
-      <p>I'm impressed by everything that can be done w/ back-end, but I have a strong sensitivity for design and front-end development.</p>
+      <p>After studying import/export, I realised I needed a job with more purpose, so I did a Master in International Cooperation to work in NGOs. I joined Handicap International for an internship in communication and then Oxfam France, for 5 years in digital communication and customer success and event origanization.</p>
+      <p>I then decided to deepen my digital knowledges and learn to code with <a href="https://www.lewagon.com/fr" target="_blank">le Wagon</a> (batch#200 Paris).</p>
+      <p>The code is creative, it's concrete! I love making stuff: sewing clothes, making my own cosmetics, embroidering ... I even learned how to tattoo! :)</p>
+      <p>I'm impressed by everything that can be done with back-end, but I have a strong sensitivity for design and front-end development.</p>
       <p>I'm currently working as a Teaching Assistant at Le Wagon in Paris and looking for a job.</p>
     </div>
   </div>
@@ -64,9 +64,9 @@ title: Cécile Dezy | Front-end Developper
         <!-- <a href="http://www.mindthemapgame.com/" target="_blank" class="pic-mtm"><img src="{{ site.baseurl }}/assets/images/logo-mtm.svg" alt="mind the map"></a> -->
         <div class="details-text">
           <p>
-            You just arrived in Paris, you have heard about all the great monuments and sightseeing but can place them on a map?
+            You just arrived in Paris, you have heard about all the great monuments and sightseeing but can you place them on a map?
             Discover your city and have fun playing <a href="http://www.mindthemapgame.com/" target="_blank">Mind the Map</a>!<br>
-            The game if simple : be the quickest and nearest to pin a given location on the map to be on the top of the leaderboard!
+            The game is simple : be the quickest and nearest to pin a given location on the map to be on the top of the leaderboard!
           </p>
           <hr>
           <div class="details-technos">
@@ -102,7 +102,7 @@ title: Cécile Dezy | Front-end Developper
       </div>
       <div class="details">
         <div class="details-text">
-          <p>You think buying a new mobile every year is a waste of money? You only need a phone for a few days? You have unused phones in you drawer? If you said yes to one of these questions, welcome to <a href="http://rent-a-mobile.herokuapp.com/" target="_blank">Rent a Mobile</a>, where you can find phones to rent!</p>
+          <p>You think buying a new mobile every year is a waste of money? You only need a phone for a few days? you have unused phones in your drawer? If you answered yes to one of those questions, welcome to <a href="http://rent-a-mobile.herokuapp.com/" target="_blank">Rent a Mobile</a>, where you can find phones to rent!</p>
           <hr>
           <div class="details-technos">
             <p><strong>Technology</strong> - Ruby on Rails, Git, Cloudinary, PostegreSQL, Heroku</p>
