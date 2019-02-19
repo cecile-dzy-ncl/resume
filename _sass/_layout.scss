@@ -273,7 +273,7 @@ footer {
 .menu-skills {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   height: 100vh;
   // background-color: red;
@@ -308,7 +308,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 30px;
+  padding: 10px 30px;
 
   img {
     height: 40px;
