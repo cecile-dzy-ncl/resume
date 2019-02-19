@@ -229,7 +229,7 @@ title: Cécile Dezy | Front-end Developper
 
   <div class="content content-contact text-center">
     <div class="contact-text">
-      <p>If you want to collaborate on building amazing experience for people – you are very welcome to contact me.</p>
+      <p>If you want to collaborate on building amazing experiences for people – you are very welcome to contact me.</p>
       <p><strong>I am available for freelance projects or full-time employment.</strong></p>
     </div>
     <div class="contact-info">
