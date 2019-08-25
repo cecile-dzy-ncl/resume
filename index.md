@@ -2,6 +2,22 @@
 layout: default
 title: Cécile Dezy | Front-end Developer
 ---
+<header class="header">
+  <h2>Front-end Developer</h2>
+  <div class="header-center">
+    <h1 class="h1-hp text-center">Cécile Dezy</h1>
+    <div class=logo></div>
+  </div>
+  <div class="menu">
+    <h3><a href="#about" class="smoothScroll">About</a></h3>
+    <h4>.</h4>
+    <h3><a href="#work" class="smoothScroll">Work</a></h3>
+    <h4>.</h4>
+    <h3><a href="#skills" class="smoothScroll">Skills</a></h3>
+    <h4>.</h4>
+    <h3><a href="#contact" class="smoothScroll">Contact</a></h3>
+  </div>
+</header>
 
 <!-- ---- ABOUT SECTION ---- -->
 <div class="section ass" id="about">
