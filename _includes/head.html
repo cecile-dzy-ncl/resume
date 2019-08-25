@@ -16,15 +16,15 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  <script>
-    $(document).ready(function() {
-      $('.smoothScroll').on('click', function() { // Au clic sur un élément
-        var page = $(this).attr('href'); // Page cible
-        var speed = 750; // Durée de l'animation (en ms)
-        $('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
-        return false;
-      });
-    });
-  </script>
 </head>
 
+<script>
+  $(document).ready(function() {
+    $('.smoothScroll').on('click', function() { // Au clic sur un élément
+      var page = $(this).attr('href'); // Page cible
+      var speed = 750; // Durée de l'animation (en ms)
+      $('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+      return false;
+    });
+  });
+</script>
