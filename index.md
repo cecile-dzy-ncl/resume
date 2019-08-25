@@ -6,7 +6,7 @@ title: Cécile Dezy | Front-end Developer
   <h2>Front-end Developer</h2>
   <div class="header-center">
     <h1 class="h1-hp text-center">Cécile Dezy</h1>
-    <div class=logo></div>
+    <div class="logo"></div>
   </div>
   <div class="menu">
     <h3><a href="#about" class="smoothScroll">About</a></h3>
